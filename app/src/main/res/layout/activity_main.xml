@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerCars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/car_types"/>
+
+    <EditText
+        android:id="@+id/edtDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number of days"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Total"/>
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rental Details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre de jours: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvPricePerDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prix par jour: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prix Total: "
+        android:textSize="16sp"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">enumirationOcation</string>
+
+
+<string-array name="car_types">
+    <item>ECONOMIQUE</item>
+    <item>INTERMEDIAIRE</item>
+    <item>SUV</item>
+    <item>LUXE</item>
+</string-array>
+</resources>
